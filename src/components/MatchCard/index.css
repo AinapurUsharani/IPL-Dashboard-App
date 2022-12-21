@@ -1,0 +1,73 @@
+.Each-container {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  margin: 13px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Each-container {
+    width: 30%;
+    height: 400px;
+  }
+}
+.logo1 {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo1 {
+    height: 100px;
+    margin-top: 20px;
+  }
+}
+
+.heading {
+  font-family: Bree Serif;
+  font-size: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.paragraph {
+  font-family: Bree Serif;
+  font-size: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 15px;
+  }
+}
+
+.paragraph1 {
+  font-family: Bree Serif;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph1 {
+    font-size: 25px;
+  }
+}
+
+.paragraph2 {
+  font-family: Bree Serif;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #18ed66;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph2 {
+    font-size: 25px;
+  }
+}

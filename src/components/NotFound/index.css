@@ -1,0 +1,21 @@
+.heading-2 {
+  font-family: Bree Serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading-2 {
+    font-size: 35px;
+  }
+}
+.container-2 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-style-type {
+  text-decoration: none;
+}
